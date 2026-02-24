@@ -4,6 +4,6 @@
 ![Praktikum 1](img/P3L1.JPG)
 
 ## Jawaban
-![Praktikum ](img/P3L2.JPG)
+![Praktikum ](img/P3LU.JPG)
 ## Jawaban
-![Praktikum ](img/P3L3.JPG)
+![Praktikum ](img/P3LA.JPG)
