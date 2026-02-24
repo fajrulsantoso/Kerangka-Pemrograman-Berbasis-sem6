@@ -7,3 +7,5 @@
 ![Praktikum ](img/P3LU.JPG)
 ## Jawaban
 ![Praktikum ](img/P3LA.JPG)
+## Jawaban
+![Praktikum ](img/P3LP.JPG)
