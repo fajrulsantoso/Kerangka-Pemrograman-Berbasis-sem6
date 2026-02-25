@@ -18,13 +18,6 @@ Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis d
 
 Pengujian dilakukan dengan mengakses URL berikut:
 
-```txt
-/shop/clothes
-/shop/clothes/tops
-/shop/clothes/tops/t-shirt
-
----
-
 ![Gambar 2](P3L1.JPG)
 ![Gambar 3](P3L2.JPG)
 ![Gambar 4](P3L3.JPG)
