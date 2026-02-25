@@ -24,8 +24,19 @@
 ![Praktikum 1](img/P5L4.JPG)
 
 
+## 6. Membuat Layout Global (App Shell) 
+## a. Buat AppShell 
+
+![Praktikum 1](img/P6L2.JPG)
+![Praktikum 1](img/P6L1.JPG)
 
 
+## E. Tugas Praktikum
+## Tugas 1 – Routing
+1. Buat halaman:
+o /profile
+o /profile/edit
+2. Pastikan routing berjalan tanpa error 
 
-
-
+![Praktikum 1](img/l1P3.JPG)
+![Praktikum 1](img/l2P3.JPG)
