@@ -39,19 +39,47 @@ Pengujian dilakukan dengan mengakses URL berikut:
 ![Gambar 4](P6L2.JPG)
 
 
-E. Tugas Praktikum
-Tugas 1 (Wajib)
-• Buat catch-all route:
-• /category/[...slug].js
-• Tampilkan seluruh parameter URL dalam bentuk list.
-Tugas 2 (Wajib)
-• Buat navigasi:
-o Login → Product (imperatif)
-o Login ↔ Register (Link)
-Tugas 3 (Pengayaan)
-• Terapkan redirect otomatis ke login jika user belum login. 
-F. Pertanyaan Evaluasi
-1. Apa perbedaan [id].js dan [...slug].js?
-2. Mengapa slug berbentuk array?
-3. Kapan sebaiknya menggunakan Link dan router.push()?
-4. Mengapa navigasi Next.js tidak me-refresh halaman?
+# 📌 E. Tugas Praktikum
+
+## 1. Tugas Wajib
+
+### **1.1 Tugas 1 – Catch-All Route**
+
+| Keterangan | Detail |
+|------------|--------|
+| Deskripsi | Membuat catch-all route untuk menangani parameter URL dinamis |
+| Path | `/category/[...slug].js` |
+| Output | Menampilkan seluruh parameter URL dalam bentuk **list** |
+
+---
+
+### **1.2 Tugas 2 – Navigasi Halaman**
+
+| Navigasi | Metode | Keterangan |
+|-----------|----------|-------------|
+| Login → Product | Imperatif | Menggunakan router.push() |
+| Login ↔ Register | Deklaratif | Menggunakan Link |
+
+---
+
+## 2. Tugas Pengayaan
+
+### **2.1 Tugas 3 – Redirect Otomatis Login**
+
+| Keterangan | Detail |
+|------------|--------|
+| Deskripsi | Redirect otomatis ke halaman login jika user belum login |
+| Implementasi | Middleware / Auth Guard |
+
+---
+
+# ❓ F. Pertanyaan Evaluasi
+
+| No | Pertanyaan |
+|----|------------|
+| 1 | Apa perbedaan `[id].js` dan `[...slug].js`? |
+| 2 | Mengapa slug berbentuk array? |
+| 3 | Kapan sebaiknya menggunakan `Link` dan `router.push()`? |
+| 4 | Mengapa navigasi Next.js tidak me-refresh halaman? |
+
+---
