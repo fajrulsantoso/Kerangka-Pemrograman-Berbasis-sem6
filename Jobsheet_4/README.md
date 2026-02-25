@@ -23,7 +23,7 @@ Pengujian dilakukan dengan mengakses URL berikut:
 /shop/clothes/tops
 /shop/clothes/tops/t-shirt
 ''''
-```txt
+---
 
 ![Gambar 2](P3L1.JPG)
 ![Gambar 3](P3L2.JPG)
