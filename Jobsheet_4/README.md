@@ -17,6 +17,9 @@ Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis d
 ### 🔹 Langkah 3 – Pengujian Catch-All Route
 
 Pengujian dilakukan dengan mengakses URL berikut:
+/shop/clothes
+/shop/clothes/tops
+/shop/clothes/tops/t-shirt
 
 ![Gambar 2](P3L1.JPG)
 ![Gambar 3](P3L2.JPG)
