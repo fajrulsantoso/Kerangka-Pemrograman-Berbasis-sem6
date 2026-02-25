@@ -63,17 +63,9 @@ Aplikasi dapat diakses melalui `http://localhost:3000` dan mendukung fitur hot r
 
 
 
-Folder: `minggu-01-setup-nextjs`
 
 ---
 
-### Minggu 02 - (Isi nanti sesuai materi)
-Folder: `minggu-02-routing`
-
----
-
-### Minggu 03 - (Isi nanti)
-Folder: `minggu-03-components`
 
 ---
 
