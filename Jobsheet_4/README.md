@@ -51,6 +51,10 @@ Pengujian dilakukan dengan mengakses URL berikut:
 | Path | `/category/[...slug].js` |
 | Output | Menampilkan seluruh parameter URL dalam bentuk **list** |
 
+
+![Gambar 4](T1L1.JPG)
+![Gambar 4](T1L1.JPG)
+
 ---
 
 ### **1.2 Tugas 2 – Navigasi Halaman**
