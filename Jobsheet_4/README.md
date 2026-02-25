@@ -51,9 +51,10 @@ Pengujian dilakukan dengan mengakses URL berikut:
 | Path | `/category/[...slug].js` |
 | Output | Menampilkan seluruh parameter URL dalam bentuk **list** |
 
+![Gambar 4](T1L1.JPG)
+![Gambar 4](T1L2.JPG)
 
-![Gambar 4](T1L1.JPG)
-![Gambar 4](T1L1.JPG)
+|Catch-all route dibuat dengan file [...slug].jsx untuk menangkap banyak parameter URL. Parameter URL disimpan dalam bentuk array dan ditampilkan di halaman category.
 
 ---
 
@@ -63,6 +64,10 @@ Pengujian dilakukan dengan mengakses URL berikut:
 |-----------|----------|-------------|
 | Login → Product | Imperatif | Menggunakan router.push() |
 | Login ↔ Register | Deklaratif | Menggunakan Link |
+
+
+![Gambar 4](T2L1.JPG)
+![Gambar 4](T2L2.JPG)
 
 ---
 
