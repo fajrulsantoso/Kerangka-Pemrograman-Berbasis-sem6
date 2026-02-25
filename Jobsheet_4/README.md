@@ -24,3 +24,8 @@ Pengujian dilakukan dengan mengakses URL berikut:
 ![Gambar 2](P3L1.JPG)
 ![Gambar 3](P3L2.JPG)
 ![Gambar 4](P3L3.JPG)
+
+
+## Jalankan browser : Berapapun banyaknya seqment tetap terbaca 
+![Gambar 3](P3L3.JPG)
+![Gambar 4](P3L4.JPG)
