@@ -84,14 +84,11 @@ Navigasi antara login dan register dibuat menggunakan Link (deklaratif). |
 | Implementasi | Middleware / Auth Guard |
  
 ---
-
-# ❓ F. Pertanyaan Evaluasi
-
-| No | Pertanyaan |
-|----|------------|
-| 1 | Apa perbedaan `[id].js` dan `[...slug].js`? |
-| 2 | Mengapa slug berbentuk array? |
-| 3 | Kapan sebaiknya menggunakan `Link` dan `router.push()`? |
-| 4 | Mengapa navigasi Next.js tidak me-refresh halaman? |
+| No | Pertanyaan | Jawaban Singkat |
+| -- | ----------- | --------------- |
+| 1 | Apa perbedaan `[id].js` dan `[...slug].js`? | `[id].js` menangkap satu parameter URL, sedangkan `[...slug].js` menangkap banyak parameter (multi segmen). |
+| 2 | Mengapa slug berbentuk array? | Karena `[...slug]` menangkap beberapa segmen URL, sehingga Next.js menyimpannya dalam bentuk array. |
+| 3 | Kapan sebaiknya menggunakan `Link` dan `router.push()`? | `Link` digunakan untuk navigasi statis di UI, sedangkan `router.push()` digunakan untuk navigasi lewat kode (misalnya setelah login). |
+| 4 | Mengapa navigasi Next.js tidak me-refresh halaman? | Karena Next.js menggunakan client-side routing, sehingga hanya mengganti halaman tanpa reload browser. ||
 
 ---
