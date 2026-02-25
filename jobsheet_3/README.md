@@ -38,5 +38,12 @@ o /profile
 o /profile/edit
 2. Pastikan routing berjalan tanpa error 
 
-![Praktikum 1](img/l1P3.JPG)
-![Praktikum 1](img/l2P3.JPG)
+![Praktikum 1](img/L1P3.JPG)
+![Praktikum 1](img/l2P3.JPG) 
+
+## Tugas 2 – Dynamic Routing
+1. Buat routing:
+2. /blog/[slug]
+3. Tampilkan nilai slug di halaman
+
+
