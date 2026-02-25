@@ -46,4 +46,12 @@ o /profile/edit
 2. /blog/[slug]
 3. Tampilkan nilai slug di halaman
 
+![Praktikum 1](img/L2P2.JPG)
+![Praktikum 1](img/l2P3.JPG)
+![Praktikum 1](img/l2P4.JPG)
+
+## Tugas 3 – Layout
+1. Tambahkan Footer pada AppShell
+2. Footer tampil di semua halaman
+![Praktikum 1](img/3P1.JPG)
 
