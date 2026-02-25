@@ -54,7 +54,8 @@ Pengujian dilakukan dengan mengakses URL berikut:
 ![Gambar 4](T1L1.JPG)
 ![Gambar 4](T1L2.JPG)
 
-|Catch-all route dibuat dengan file [...slug].jsx untuk menangkap banyak parameter URL. Parameter URL disimpan dalam bentuk array dan ditampilkan di halaman category.
+|Catch-all route dibuat dengan file [...slug].jsx untuk menangkap banyak parameter URL.|
+|Parameter URL disimpan dalam bentuk array dan ditampilkan di halaman category.|
 
 ---
 
@@ -62,9 +63,11 @@ Pengujian dilakukan dengan mengakses URL berikut:
 
 | Navigasi | Metode | Keterangan |
 |-----------|----------|-------------|
+
 | Login → Product | Imperatif | Menggunakan router.push() |
 | Login ↔ Register | Deklaratif | Menggunakan Link |
-
+| Navigasi login ke product dibuat menggunakan router.push() (imperatif).|
+Navigasi antara login dan register dibuat menggunakan Link (deklaratif). |
 
 ![Gambar 4](T2L1.JPG)
 ![Gambar 4](T2L2.JPG)
@@ -79,7 +82,7 @@ Pengujian dilakukan dengan mengakses URL berikut:
 |------------|--------|
 | Deskripsi | Redirect otomatis ke halaman login jika user belum login |
 | Implementasi | Middleware / Auth Guard |
-
+ 
 ---
 
 # ❓ F. Pertanyaan Evaluasi
