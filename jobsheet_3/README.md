@@ -14,7 +14,17 @@
 ## Jawaban
 ![Praktikum ](img/P4LP.JPG)
 ![Praktikum ](img/P4LBAJU.JPG)
-![Praktikum ](img/P4LSEPATU.JPG)
+![Praktikum ](img/P4LSEPATU.JPG)  
+
+## 5. Membuat Komponen Navbar
+## a. Struktur Komponen
+![Praktikum 1](img/P5L1.JPG)
+![Praktikum 1](img/P5L2.JPG)
+![Praktikum 1](img/P5L3.JPG)
+![Praktikum 1](img/P5L4.JPG)
+
+
+
 
 
 
