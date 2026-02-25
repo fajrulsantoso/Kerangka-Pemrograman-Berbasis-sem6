@@ -1,20 +1,14 @@
 import Navbar from "../Navbar";
 
-type AppShellProps = {
-  children: React.ReactNode;
-}
-
-const AppShell = (props: AppShellProps) => {
-  const { children } = props;
+export default function AppShell({ children }) {
   return (
-    <main>
+    <>
       <Navbar />
-      {children}
-      <div>
-        footer
-      </div>
-    </main>
-  );
-};
+      <main>{children}</main>
 
-export default AppShell;
+      <footer style={{ marginTop: "40px", padding: "20px", background: "#eee" }}>
+        <p>© 2026 Pemrograman Framework - Fajrul Santoso</p>
+      </footer>
+    </>
+  );
+}
