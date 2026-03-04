@@ -1,4 +1,5 @@
 import styles from "../styles/404.module.scss";
+import Link from "next/link";
 
 export default function Custom404() {
   return (
@@ -16,6 +17,11 @@ export default function Custom404() {
       <p className={styles.error__desc}>
         Maaf, halaman yang Anda cari tidak tersedia atau sudah dipindahkan.
       </p>
+
+      {/* Tombol Kembali */}
+      <Link href="/" className={styles.error__button}>
+        Kembali ke Home
+      </Link>
     </div>
   );
 }

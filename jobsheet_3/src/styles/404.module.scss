@@ -24,3 +24,16 @@
   font-size: 18px;
   color: #7f8c8d;
 }
+.error__button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.error__button:hover {
+  background-color: #2980b9;
+}
