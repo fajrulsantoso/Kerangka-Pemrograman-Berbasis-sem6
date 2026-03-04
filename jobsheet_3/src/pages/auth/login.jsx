@@ -1,7 +1,10 @@
-import TampilLogin from "@/views/auth/login";
+import Link from "next/link";
 
-const HalamanLogin = () => {
-  return <TampilLogin />;
-};
-
-export default HalamanLogin;
+export default function Login() {
+  return (
+    <div>
+      <h1>Halaman Login</h1>
+      <Link href="/auth/register">Ke Halaman Register</Link>
+    </div>
+  );
+}
