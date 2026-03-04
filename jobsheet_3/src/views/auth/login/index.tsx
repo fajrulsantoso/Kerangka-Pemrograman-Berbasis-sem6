@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-// import styles from './login.module.css';
 import styles from './login.module.scss';
 
 const TampilanLogin = () => {
@@ -12,7 +11,10 @@ const TampilanLogin = () => {
 
   return (
     <div className={styles.login}>
-      <h1>Halaman Login</h1>
+      
+      <h1 className="text-3xl font-bold text-blue-600">
+        Halaman Login
+      </h1>
 
       <button onClick={handleLogin}>Login</button>
 
