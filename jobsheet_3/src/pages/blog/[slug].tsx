@@ -1,16 +1,12 @@
 import { useRouter } from "next/router";
 
-const halamanToko = () => {
-  const Router = useRouter();
-  console.log(Router);
-
-  // const { query } = useRouter();
+export default function BlogDetail() {
+  const { query } = useRouter();
 
   return (
     <div>
-      <h1>Halaman Toko</h1>
+      <h1>Detail Blog</h1>
+      <p>Slug: {query.slug}</p>
     </div>
   );
-};
-
-export default halamanToko;
+}
