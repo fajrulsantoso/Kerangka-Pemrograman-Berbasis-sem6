@@ -1,20 +1,16 @@
-
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import ProdukView from "@/views/produk";
 
-const produk = () => {
-  const [isLogin, setIsLogin] = useState(false);
+export default function ProdukPage() {
+  const [isLogin] = useState(true); // ubah false kalau mau test redirect
   const { push } = useRouter();
 
   useEffect(() => {
     if (!isLogin) {
       push("/auth/login");
     }
-  }, []);
+  }, [isLogin, push]);
 
-  return (
-    <div>Produk User Page</div>
-  );
-};
-
-export default produk;
+  return <ProdukView />;
+}
