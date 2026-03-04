@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 type ProductType = {
   id: string;
   name: string;
-  harga: number;
-  ukuran: string;
-  warna: string;
+  price: number;
+  size: string;
+  category: string;  // ✅ SUDAH DITAMBAHKAN
 };
 
 const Kategori = () => {
-  const [isLogin, setIsLogin] = useState(true); // ubah false kalau mau test redirect
+  const [isLogin, setIsLogin] = useState(true);
   const { push } = useRouter();
   const [products, setProducts] = useState<ProductType[]>([]);
 
@@ -23,11 +23,11 @@ const Kategori = () => {
 
   // useEffect untuk fetch data produk
   useEffect(() => {
-    fetch(`/api/produk`)
+    fetch("/api/produk")
       .then((response) => response.json())
       .then((responseData) => {
-        // console.log("Data produk:", responseData.data);
         setProducts(responseData.data);
+        // console.log("Data produk:", responseData.data);
       })
       .catch((error) => {
         console.error("Error fetching produk:", error);
@@ -40,9 +40,9 @@ const Kategori = () => {
       {products.map((product: ProductType) => (
         <div key={product.id}>
           <h2>{product.name}</h2>
-          <p>Harga: {product.harga}</p>
-          <p>Ukuran: {product.ukuran}</p>
-          <p>Warna: {product.warna}</p>
+          <p>Harga: {product.price}</p>
+          <p>Ukuran: {product.size}</p>
+          <p>Category: {product.category}</p> {/* ✅ SEKARANG BISA */}
         </div>
       ))}
     </div>
