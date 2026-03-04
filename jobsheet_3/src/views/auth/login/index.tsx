@@ -1,31 +1,35 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "./login.module.css";
+// import styles from './login.module.css';
+import styles from './login.module.scss';
 
-const TampilLogin = () => {
+const TampilanLogin = () => {
   const { push } = useRouter();
 
   const handleLogin = () => {
-    push("/produk");
+    push('/produk');
   };
 
   return (
     <div className={styles.login}>
+      <h1>Halaman Login</h1>
+
+      <button onClick={handleLogin}>Login</button>
+
       <h1
         style={{
           color: "red",
-          borderRadius: "10px",
-          padding: "10px",
+          border: "1px solid red",
+          borderRadius: "5px",
+          padding: "5px"
         }}
       >
-        Halaman Login
+        belum punya akun
       </h1>
 
-      <button onClick={handleLogin}>Login</button>
-      <br />
       <Link href="/auth/register">Ke Halaman Register</Link>
     </div>
   );
 };
 
-export default TampilLogin;
+export default TampilanLogin;
