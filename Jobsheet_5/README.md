@@ -46,7 +46,7 @@
 ### 5. Refactoring Struktur Project (Best Practice)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P1.JPG)
+![Catch All Route](P4.JPG)
 
 ---
 
@@ -57,7 +57,7 @@
 ### 6. Inline Styling (CSS-in-JS)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P1.JPG)
+![Catch All Route](P5.JPG)
 
 ---
 
