@@ -7,10 +7,61 @@
 
 ## 🧪 Hasil Praktikum
 
-### 🔹 Langkah 2 – Membuat Catch-All Route
-Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis dalam aplikasi Next.js.
+### 🔹 Langkah 2 – CSS Module (Local Scope)
 
 #### 📸 Hasil Implementasi:
 ![Catch All Route](P1.JPG)
 
 ---
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### 🔹 3. Styling untuk Pages (CSS Module)
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1.JPG)
+
+---
+
+
+
+## 🧪 Hasil Praktikum
+
+### 🔹4. Conditional Rendering Navbar (Tanpa Navbar di Login)
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1.JPG)
+
+---
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### 5. Refactoring Struktur Project (Best Practice)
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1.JPG)
+
+---
+
+
+
+## 🧪 Hasil Praktikum
+
+### 6. Inline Styling (CSS-in-JS)
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1.JPG)
+
+---
+
+
+
+
+
