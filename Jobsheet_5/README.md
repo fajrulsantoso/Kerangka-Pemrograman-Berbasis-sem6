@@ -10,7 +10,7 @@
 ### 🔹 Langkah 2 – CSS Module (Local Scope)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P2.JPG)
+![Catch All Route](P1.JPG)
 
 ---
 
@@ -22,7 +22,7 @@
 ### 🔹 3. Styling untuk Pages (CSS Module)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P1.JPG)
+![Catch All Route](P2.JPG)
 
 ---
 
