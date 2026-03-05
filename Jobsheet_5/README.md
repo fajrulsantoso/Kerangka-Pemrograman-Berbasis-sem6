@@ -63,5 +63,18 @@
 
 
 
+## 🧪 Hasil Praktikum
+
+### 8. SCSS (SASS)
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P6.JPG)
+
+---
+
+
+
+
+
 
 
