@@ -68,7 +68,9 @@
 ### 8. SCSS (SASS)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P6.JPG)
+![Catch All Route](P7.JPG)
+![Catch All Route](P8.JPG)
+
 
 ---
 
