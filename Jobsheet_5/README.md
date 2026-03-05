@@ -33,7 +33,7 @@
 ### 🔹4. Conditional Rendering Navbar (Tanpa Navbar di Login)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P1.JPG)
+![Catch All Route](P3.JPG)
 
 ---
 
