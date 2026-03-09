@@ -10,7 +10,7 @@
 ### Langkah 2 – Membuat API Produk
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L11.JPG)
+![Catch All Route](L2.JPG)
 
 ---
 
@@ -22,7 +22,7 @@
 ### Langkah 3 – Fetch Data API di Frontend
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L2.JPG)
+![Catch All Route](L11.JPG)
 
 ---
 
