@@ -31,6 +31,7 @@
 ---
 
 
+
 ---
 
 
@@ -93,6 +94,71 @@
 
 
 
+# 📘 Lembar Kerja – Next.js API & Konsep Data
+
+
+---
+
+## 1️⃣ Apa fungsi API Routes pada Next.js?
+
+API Routes pada Next.js berfungsi untuk membuat **endpoint backend langsung di dalam project Next.js** tanpa perlu membuat server terpisah.
+
+Dengan API Routes, kita dapat:
+- Mengambil data (GET)
+- Menambahkan data (POST)
+- Mengubah data (PUT)
+- Menghapus data (DELETE)
+
+Sehingga Next.js dapat digunakan untuk menangani **operasi CRUD** secara langsung.
+
+---
+
+## 2️⃣ Mengapa `.env.local` tidak boleh di-push ke repository?
+
+File `.env.local` biasanya berisi **data sensitif**, seperti:
+
+- API Key
+- Password
+- Token akses
+- Konfigurasi rahasia aplikasi
+
+Jika file ini di-push ke repository publik, maka orang lain bisa melihat dan menggunakan data tersebut. Hal ini dapat menimbulkan **resiko keamanan**, seperti penyalahgunaan layanan atau akses ilegal ke sistem.
+
+Oleh karena itu `.env.local` biasanya dimasukkan ke dalam file **`.gitignore`** agar tidak ikut terupload ke repository.
+
+---
+
+## 3️⃣ Apa perbedaan data statis dan data dinamis?
+
+### Data Statis
+Data statis adalah data yang **tidak berubah saat aplikasi berjalan**.
+
+Contoh:
+- HTML yang sudah dibuat saat build
+- File JSON statis
+- Konten yang dibuat saat build time
+
+### Data Dinamis
+Data dinamis adalah data yang **bisa berubah saat runtime**.
+
+Biasanya data ini diambil dari:
+- API
+- Database
+- Input dari user
+
+---
+
+## 4️⃣ Mengapa Next.js disebut framework Fullstack?
+
+Next.js disebut framework **Fullstack** karena dapat menangani **frontend dan backend sekaligus** dalam satu framework.
+
+### Frontend
+Digunakan untuk membuat tampilan aplikasi menggunakan **React Pages atau Components**.
+
+### Backend
+Digunakan untuk membuat **API Routes atau server-side logic** untuk mengolah data.
+
+Dengan demikian, developer dapat membangun **aplikasi web lengkap (fullstack)** hanya menggunakan satu framework yaitu **Next.js**.
 
 
 
