@@ -41,7 +41,7 @@
 ### Langkah 10 – API Mengambil Data Firebase 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L10.JPG)
+![Catch All Route](l10.JPG)
 
 ---
 
