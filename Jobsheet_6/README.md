@@ -101,7 +101,7 @@ Tugas 2 (Wajib)
 Hasil 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](TUGAS2.JPG)
+![Catch All Route](TUGAS 2.JPG)
 
 ---
 
@@ -123,7 +123,7 @@ Tugas 3 (Pengayaan)
 • Gunakan navigasi Next.js (Link)
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](TUGAS3.JPG)
+![Catch All Route](TUGAS 3.JPG)
 
 ---
 
