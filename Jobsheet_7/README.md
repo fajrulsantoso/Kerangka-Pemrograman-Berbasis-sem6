@@ -30,12 +30,6 @@
 
 ---
 
-## 🧪 Hasil Praktikum
-
-### E. Integrasi Firebase Langkah 5 – Setup Firebase
-
-#### 📸 Hasil Implementasi:
-![Catch All Route](L11.JPG)
 
 ---
 
@@ -50,6 +44,52 @@
 ![Catch All Route](L10.JPG)
 
 ---
+
+
+
+---
+
+## 🧪   TUGAS PRAKTIKUM
+
+### Tugas 1 (Wajib) • Tambahkan minimal 3 data produk di Firestore • Pastikan data tampil di halaman produk 
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](L10.JPG)
+
+---
+
+
+
+---
+
+## 🧪   TUGAS PRAKTIKUM
+
+### Tugas 2 (Wajib) • Tambahkan field baru: o category • Tampilkan category di frontend  
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](L10.JPG)
+
+---
+
+
+
+---
+
+## 🧪   TUGAS PRAKTIKUM
+
+### Tugas 3 (Pengayaan) • Tambahkan tombol Refresh Data • Gunakan fetch ulang tanpa reload halaman  
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](L10.JPG)
+
+---
+
+
+
+
 
 
 
