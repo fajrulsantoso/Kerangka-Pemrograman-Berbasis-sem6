@@ -55,7 +55,7 @@
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L10.JPG)
+![Catch All Route](TUGAS1.JPG)
 
 ---
 
@@ -69,7 +69,7 @@
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L10.JPG)
+![Catch All Route](TUGAS2.JPG)
 
 ---
 
@@ -83,7 +83,9 @@
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L10.JPG)
+![Catch All Route](TUGAS3.JPG)
+![Catch All Route](TUGAS3.3JPG.JPG)
+
 
 ---
 
