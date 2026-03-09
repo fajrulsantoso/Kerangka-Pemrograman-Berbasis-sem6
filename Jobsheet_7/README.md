@@ -22,7 +22,7 @@
 ### Langkah 3 – Fetch Data API di Frontend
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L11.JPG)
+![Catch All Route](L3.JPG)
 
 ---
 
@@ -35,7 +35,7 @@
 ### E. Integrasi Firebase Langkah 5 – Setup Firebase
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L3.JPG)
+![Catch All Route](L11.JPG)
 
 ---
 
