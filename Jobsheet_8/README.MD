@@ -12,7 +12,7 @@
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L1.JPG)
+![Catch All Route](l1.JPG)
 
 ---
 
