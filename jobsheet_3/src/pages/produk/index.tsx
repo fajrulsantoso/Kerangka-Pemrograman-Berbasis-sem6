@@ -1,26 +1,29 @@
 import { useEffect, useState } from "react";
-import TampilanProduk from "@/views/produk";
+// 1. WAJIB: Tambahkan import useRouter dari next/router
+import { useRouter } from "next/router"; 
+// 2. Gunakan relative path jika @/ tidak terbaca
+import TampilanProduk from "../../views/produk"; 
+import useSWR from "swr";
+import fetcher from "../utils/swr/fetcher";
 
-type ProductType = {
-  id: string;
-  name: string;
-  price: string;
-  image: string;
-  category: string;
+const Kategori = () => {
+    // Sekarang router tidak akan error lagi
+    const router = useRouter();
+
+    // Mengambil data dengan SWR
+    const { data, error, isLoading } = useSWR("/api/produk", fetcher);
+
+    // Menangani kondisi error (Opsional tapi baik untuk UX)
+    if (error) return <div>Gagal memuat data.</div>;
+
+    return (
+        <div>
+            {/* Data dikirim ke TampilanProduk. 
+               Pastikan struktur data dari API Anda adalah { data: [...] } 
+            */}
+            <TampilanProduk products={isLoading ? [] : data?.data || []} />
+        </div>
+    );
 };
 
-const ProdukPage = () => {
-  const [products, setProducts] = useState<ProductType[]>([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/api/produk")
-      .then((res) => res.json())
-      .then((response) => {
-        setProducts(response.data); // ambil array data
-      });
-  }, []);
-
-  return <TampilanProduk products={products} />;
-};
-
-export default ProdukPage;
+export default Kategori;
