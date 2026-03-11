@@ -8,10 +8,11 @@
 
 ## 🧪 Hasil Praktikum
 
-### Langkah 2 – Membuat API Produk
+###  Bagian 1 – Setup Data Produk
+
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](L2.JPG)
+![Catch All Route](L1.JPG)
 
 ---
 
