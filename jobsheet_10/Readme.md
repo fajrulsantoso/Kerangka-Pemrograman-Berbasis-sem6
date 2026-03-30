@@ -23,3 +23,53 @@
 
 
 ---
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### Bagian 1 – Setup Halaman SSR
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P4L1.JPG)
+
+---
+
+
+---                 
+
+
+
+---
+
+
+
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### Bagian 1 – Setup Halaman SSR
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P4L2.JPG)
+
+---
+
+
+---                 
+
+
+
+---
+
+
+
+
+
