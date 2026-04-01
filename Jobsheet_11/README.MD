@@ -60,3 +60,37 @@ file dengan nama detailProduct.module.scss
 
 
 ---
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### 🔹   Bagian 3 – Implementasi SSR 
+
+Modifikasi [produk].tsx pada folder src/pages/produk dan comment line 9 sampai 20
+dikarena kita akan menggunakan metode SSR. Tambahkan beberapa kode untuk SSR 
+
+### ✏️ Modifikasi
+
+| No | File | Modifikasi |
+|:---|:---|:---|
+| 1 | `Jalankan browser http://localhost:3000/produk/server |
+| 2 | ` Tidak perlu loading state karena data sudah tersedia sebelum render.|
+
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P4L1.JPG)
+![Catch All Route](P5L1.JPG)
+![Catch All Route](P5L2.JPG)
+
+
+---
+
+
+
+
+
+
