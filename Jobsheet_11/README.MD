@@ -123,9 +123,6 @@ o Buka file [produk].tsx dan modifikasi seperti berikut
 
 
 
-
-
-
 ## 🧪 Hasil Praktikum
 
 ###   D. Pengujian  
@@ -133,7 +130,7 @@ Uji 1 – CSR
 
 
 
-| No | File | Modifikasi |
+|    | File |  |
 |:---|:---|:---|
 | 1 | `o • Refresh halaman detail  |
 | 2 | `• Perhatikan loading |
@@ -146,6 +143,78 @@ Uji 1 – CSR
 ![Catch All Route](T1.JPG)
 
 ---
+
+
+
+
+
+---
+
+
+
+## 🧪 Hasil Praktikum
+
+###   D. Pengujian  
+ Uji 2 – SSR
+
+|    | File |  |
+|:---|:---|:---|
+| 1 | `o • Refresh halaman detail  |
+| 2 | `• • Tidak ada loading  |
+| 3 | `• Periksa Network → tidak terlihat fetch detail  |
+
+
+
+#### 📸 Hasil Implementasi:
+
+![Catch All Route](T2.JPG)
+
+---
+
+
+
+---
+
+
+
+## 🧪 Hasil Praktikum
+
+###   D. Pengujian  
+  Uji 3 – SSG ( Lakukan seperti langkah sebelumya pada Jobsheet 10)
+
+|    | File |  |
+|:---|:---|:---|
+| 1 | `o Jalankan:
+o npm run build
+o npm run start  |
+| 2 |  Tambahkan produk baru di database.  |
+| 3 |  Buka halaman detail produk baru:  |
+| 3 | Build ulang:
+o npm run build
+o npm run start
+ Baru muncul.   |
+
+
+
+
+#### 📸 Hasil Implementasi:
+
+![Catch All Route](T3.JPG)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
