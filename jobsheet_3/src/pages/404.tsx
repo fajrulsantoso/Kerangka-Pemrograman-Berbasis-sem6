@@ -18,7 +18,6 @@ export default function Custom404() {
         Maaf, halaman yang Anda cari tidak tersedia atau sudah dipindahkan.
       </p>
 
-      {/* Tombol Kembali */}
       <Link href="/" className={styles.error__button}>
         Kembali ke Home
       </Link>

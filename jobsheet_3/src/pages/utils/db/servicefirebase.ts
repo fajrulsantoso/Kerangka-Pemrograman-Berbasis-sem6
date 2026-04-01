@@ -1,13 +1,15 @@
-import { collection, getDocs } from "firebase/firestore";
-import { db } from "./firebase";
+import { collection, getDocs, getDoc, doc } from "firebase/firestore";
+import { db } from "./firebase"; // ✅ pakai db
 
-export async function getData() {
-  const snapshot = await getDocs(collection(db, "products"));
-
-  const data = snapshot.docs.map((doc) => ({
+export async function retrieveProducts(collectionName: string) {
+  const snapshot = await getDocs(collection(db, collectionName));
+  return snapshot.docs.map((doc) => ({
     id: doc.id,
     ...doc.data(),
   }));
+}
 
-  return data;
+export async function retrieveDataByID(collectionName: string, id: string) {
+  const snapshot = await getDoc(doc(db, collectionName, id));
+  return snapshot.data();
 }

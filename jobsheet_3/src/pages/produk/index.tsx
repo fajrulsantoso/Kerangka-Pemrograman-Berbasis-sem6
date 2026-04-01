@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 // 1. WAJIB: Tambahkan import useRouter dari next/router
 import { useRouter } from "next/router"; 
 // 2. Gunakan relative path jika @/ tidak terbaca
-import TampilanProduk from "../../views/produk"; 
+import TampilanProduk from "../../../views/produk"; 
 import useSWR from "swr";
 import fetcher from "../utils/swr/fetcher";
 
