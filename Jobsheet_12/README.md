@@ -19,3 +19,58 @@ Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis d
 
 
 ---
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### 🔹    Bagian 2 – Pengujian ISR  
+
+Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis dalam aplikasi Next.js.
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1L2.JPG)
+
+---
+
+
+
+---
+
+
+
+## 🧪 Hasil Praktikum
+
+### 🔹    Bagian 2 – Pengujian ISR  
+
+Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis dalam aplikasi Next.js.
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1L2.JPG)
+
+---
+
+
+
+---
+
+
+## 🧪 Hasil Praktikum
+
+### 🔹    Bagian 2 – Pengujian ISR  
+
+2. Tambahkan data baru di database pada firebase
+   
+#### 📸 Hasil Implementasi:
+![Catch All Route](P1L3.JPG)
+
+---
+
+
+
+---
+
+
+
+
