@@ -42,10 +42,16 @@ Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis d
 
  Buat file dengan nama index.tsx pada folder views/DetailProduct selain itu buat juga
 file dengan nama detailProduct.module.scss
-o Modifikasi detailProduct.module.scss
-o Modifikasi index.tsx pada folder DetailProduct
-o Modifikasi file [product].tsx
-o Modifikasi index.tsx pada folder views/detailProduct line 16
+
+### ✏️ Modifikasi
+
+| No | File | Modifikasi |
+|:---|:---|:---|
+| 1 | `detailProduct.module.scss` | Modifikasi styling |
+| 2 | `index.tsx` | Modifikasi komponen DetailProduct |
+| 3 | `[product].tsx` | Modifikasi file dynamic route |
+| 4 | `index.tsx` (line 16) | Modifikasi baris ke-16 |
+
 
 
 #### 📸 Hasil Implementasi:
