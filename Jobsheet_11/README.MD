@@ -31,3 +31,26 @@ Pada langkah ini dibuat *catch-all route* untuk menangani berbagai URL dinamis d
 
 
 ---
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+### 🔹   Bagian 2 – Implementasi CSR (Client Rendering) 
+
+ Buat file dengan nama index.tsx pada folder views/DetailProduct selain itu buat juga
+file dengan nama detailProduct.module.scss
+o Modifikasi detailProduct.module.scss
+o Modifikasi index.tsx pada folder DetailProduct
+o Modifikasi file [product].tsx
+o Modifikasi index.tsx pada folder views/detailProduct line 16
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P3L1.JPG)
+![Catch All Route](P3L2.JPG)
+
+
+---
