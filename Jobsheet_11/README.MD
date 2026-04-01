@@ -119,9 +119,33 @@ o Buka file [produk].tsx dan modifikasi seperti berikut
 ![Catch All Route](P6L1.JPG)
 
 
-
 ---
 
+
+
+
+
+
+## 🧪 Hasil Praktikum
+
+###   D. Pengujian  
+Uji 1 – CSR
+
+
+
+| No | File | Modifikasi |
+|:---|:---|:---|
+| 1 | `o • Refresh halaman detail  |
+| 2 | `• Perhatikan loading |
+| 3 | `• Periksa Network → XHR → API request terlihat  |
+
+
+
+#### 📸 Hasil Implementasi:
+
+![Catch All Route](T1.JPG)
+
+---
 
 
 
