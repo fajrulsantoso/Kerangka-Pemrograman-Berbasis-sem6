@@ -6,11 +6,27 @@ export default function RegisterView() {
       <h1>Register</h1>
 
       <form className={styles.form}>
-        <input className={styles.input} type="text" placeholder="Nama" />
-        <input className={styles.input} type="email" placeholder="Email" />
-        <input className={styles.input} type="password" placeholder="Password" />
+        <input
+          className={styles.input}
+          type="text"
+          placeholder="Nama"
+        />
 
-        <button className={styles.button}>Daftar</button>
+        <input
+          className={styles.input}
+          type="email"
+          placeholder="Email"
+        />
+
+        <input
+          className={styles.input}
+          type="password"
+          placeholder="Password"
+        />
+
+        <button className={styles.button}>
+          Daftar
+        </button>
       </form>
     </div>
   );

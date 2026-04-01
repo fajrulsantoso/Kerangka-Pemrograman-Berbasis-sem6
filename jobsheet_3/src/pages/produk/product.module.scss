@@ -1,3 +1,79 @@
+
 .produk {
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.produk__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* GRID RESPONSIVE */
+.produk__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* CARD PRODUK */
+.produk__content__item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.produk__content__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* GAMBAR */
+.produk__content__item__image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* =========================
+   SKELETON LOADING
+========================= */
+
+.skeleton__card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skeleton__image {
+  width: 100%;
+  height: 200px;
+  background: #e0e0e0;
+  animation: skeleton-loading 1s infinite alternate;
+  border-radius: 8px;
+}
+
+.skeleton__text {
+  height: 20px;
+  margin-top: 10px;
+  background: #e0e0e0;
+  animation: skeleton-loading 1s infinite alternate;
+  border-radius: 4px;
+}
+
+/* animasi */
+
+@keyframes skeleton-loading {
+  from {
+    background-color: #e0e0e0;
+  }
+  to {
+    background-color: #f5f5f5;
+  }
 }

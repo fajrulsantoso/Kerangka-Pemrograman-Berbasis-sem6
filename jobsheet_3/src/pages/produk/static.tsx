@@ -1,36 +1,25 @@
-import TampilanProduk from "../../../views/produk"; 
-import { ProductType } from "../types/product.type";
+import TampilanProduk from "../../../views/produk";
+import { ProductType } from "@/types/product.type";
+import { retrieveProducts } from "@/utils/db/servicefirebase";
 
-const HalamanProdukStatic = (props: { products: ProductType[] }) => {
-    const { products } = props;
-
-    return (
-        <div>
-            <h1>Halaman Produk Static</h1>
-            <TampilanProduk products={products} />
-        </div>
-    );
+const HalamanProdukStatic = ({ products }: { products: ProductType[] }) => {
+  return (
+    <div>
+      <h1>Halaman Produk Static</h1>
+      <TampilanProduk products={products} />
+    </div>
+  );
 };
 
 export default HalamanProdukStatic;
 
 export async function getStaticProps() {
-    // Gunakan try-catch untuk menghindari error jika API mati saat build
-    try {
-        const res = await fetch('http://localhost:3000/api/produk');
-        const response: { data: ProductType[] } = await res.json();
+  const products = await retrieveProducts("products");
 
-        return {
-            props: {
-                products: response.data || [],
-            },
-        };
-    } catch (error) {
-        console.error("Gagal mengambil data:", error);
-        return {
-            props: {
-                products: [],
-            },
-        };
-    }
+  return {
+    props: {
+      products,
+    },
+    revalidate: 10, // ISR aktif
+  };
 }

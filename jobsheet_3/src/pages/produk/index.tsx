@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 // 2. Gunakan relative path jika @/ tidak terbaca
 import TampilanProduk from "../../../views/produk"; 
 import useSWR from "swr";
-import fetcher from "../utils/swr/fetcher";
+import fetcher from "../../utils/swr/fetcher";
 
 const Kategori = () => {
     // Sekarang router tidak akan error lagi
