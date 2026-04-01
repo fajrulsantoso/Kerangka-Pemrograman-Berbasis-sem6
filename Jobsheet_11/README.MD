@@ -55,7 +55,7 @@ file dengan nama detailProduct.module.scss
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P3L1.JPG)
+![Catch All Route](T3.JPG)
 ![Catch All Route](P3L2.JPG)
 
 
@@ -83,7 +83,7 @@ dikarena kita akan menggunakan metode SSR. Tambahkan beberapa kode untuk SSR
 
 #### 📸 Hasil Implementasi:
 ![Catch All Route](P4L1.JPG)
-![Catch All Route](P5L1.JPG)
+![Catch All Route](T3.JPG)
 ![Catch All Route](P5L2.JPG)
 
 
