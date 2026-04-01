@@ -212,30 +212,60 @@ o npm run start
 ---
 
 ## 🧪 Hasil Praktikum
- 
-### 🔹    Implementasikan halaman detail dengan:
-CSR
-SSR
-SSG
-Saya sudah Implementasikan halaman detail dengan beberapa metode renderer diantaranya CSR, SSR, dan SSg pada praktikum sebelumnya.
 
-### ✏️ Modifikasi
+### 🔹 Implementasi Halaman Detail
 
-| ASPEK | CSR | SSR | | SSG |
-|:---|:---|:---|
-| Memuat | ❌	 | ✅ | ✅ |
-| Membutuhkan Pembangunan | ❌	 | ✅ | ✅ |
-| SEO | ❌	 | ✅ | ✅ |
-| Perubahan Data | ❌	 | ✅ | ✅ |
+Saya sudah mengimplementasikan halaman detail dengan beberapa metode rendering, yaitu:
+- CSR (Client Side Rendering)
+- SSR (Server Side Rendering)
+- SSG (Static Site Generation)
 
+---
+
+### ✏️ Perbandingan Metode Rendering
+
+| Aspek               | CSR | SSR | SSG |
+|--------------------|-----|-----|-----|
+| Memuat Data        | ❌  | ✅  | ✅  |
+| Build Time         | ❌  | ❌  | ✅  |
+| SEO                | ❌  | ✅  | ✅  |
+| Perubahan Data     | ❌  | ✅  | ❌  |
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](T3.JPG)
-![Catch All Route](P3L2.JPG)
-
 
 ---
+
+
+## ❓ F. Pertanyaan Analisis
+
+### 1. Mengapa `getStaticPaths` wajib pada dynamic SSG?
+
+`getStaticPaths` digunakan untuk menentukan halaman mana saja yang akan dibuat saat proses build. Tanpa fungsi ini, Next.js tidak tahu parameter dinamis apa saja yang harus di-generate menjadi halaman statis.
+
+---
+
+### 2. Mengapa CSR membutuhkan loading state?
+
+Karena data pada CSR diambil di sisi client (browser) setelah halaman dimuat. Saat proses pengambilan data berlangsung, diperlukan loading state agar pengguna mengetahui bahwa data sedang diproses.
+
+---
+
+### 3. Mengapa SSG tidak menampilkan produk baru tanpa build ulang?
+
+Karena SSG menghasilkan halaman statis saat build time. Data yang ditampilkan adalah snapshot saat build, sehingga jika ada data baru, halaman tidak akan berubah sampai dilakukan build ulang.
+
+---
+
+### 4. Mana metode terbaik untuk halaman detail e-commerce?
+
+SSR (Server Side Rendering) adalah pilihan terbaik karena data selalu terbaru setiap kali halaman diakses. Ini penting untuk memastikan informasi produk seperti harga dan stok selalu up-to-date.
+
+---
+
+### 5. Apa risiko menggunakan SSG untuk produk yang sering berubah?
+
+Risikonya adalah data menjadi tidak akurat atau usang (outdated). Perubahan harga, stok, atau detail produk tidak akan langsung terlihat oleh pengguna tanpa melakukan build ulang.
 
 
 
