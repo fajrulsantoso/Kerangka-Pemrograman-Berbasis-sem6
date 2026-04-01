@@ -93,4 +93,39 @@ dikarena kita akan menggunakan metode SSR. Tambahkan beberapa kode untuk SSR
 
 
 
+---
+
+## 🧪 Hasil Praktikum
+
+###  Bagian 4 – Implementasi Static Site Generation (Dynamic SSG) 
+
+o Buka file [produk].tsx dan modifikasi seperti berikut 
+
+
+### ✏️ Modifikasi
+
+| No | File | Modifikasi |
+|:---|:---|:---|
+| 1 | `o Buka file [produk].tsx dan modifikasi seperti berikut  |
+| 2 | ` o Buka file index.tsx pada folder src/views/DetailProduct dan modifikasi pada line 11.|
+| 3 | `Jalankan browser http://localhost:3000/produk  |
+| 4 | ` Saat diklik salah satu produk |
+
+
+
+#### 📸 Hasil Implementasi:
+
+![Catch All Route](P5L2.JPG)
+![Catch All Route](P6L1.JPG)
+
+
+
+---
+
+
+
+
+
+
+
 
