@@ -209,7 +209,33 @@ o npm run start
 
 
 
+---
 
+## 🧪 Hasil Praktikum
+ 
+### 🔹    Implementasikan halaman detail dengan:
+CSR
+SSR
+SSG
+Saya sudah Implementasikan halaman detail dengan beberapa metode renderer diantaranya CSR, SSR, dan SSg pada praktikum sebelumnya.
+
+### ✏️ Modifikasi
+
+| ASPEK | CSR | SSR | | SSG |
+|:---|:---|:---|
+| Memuat | ❌	 | ✅ | ✅ |
+| Membutuhkan Pembangunan | ❌	 | ✅ | ✅ |
+| SEO | ❌	 | ✅ | ✅ |
+| Perubahan Data | ❌	 | ✅ | ✅ |
+
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](T3.JPG)
+![Catch All Route](P3L2.JPG)
+
+
+---
 
 
 
