@@ -162,6 +162,11 @@ export const config = {
 * Halaman `/about` membutuhkan login
 * Halaman lain (misalnya `/login`) tetap dapat diakses tanpa login
 
+#### 📸 Hasil Implementasi:
+![Catch All Route](U1T1.JPG)
+![Catch All Route](U2.JPG)
+![Catch All Route](U3.JPG)
+
 ---
 
 
