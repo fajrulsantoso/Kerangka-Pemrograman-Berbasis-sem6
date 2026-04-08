@@ -163,9 +163,9 @@ export const config = {
 * Halaman lain (misalnya `/login`) tetap dapat diakses tanpa login
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](U1T1.JPG)
-![Catch All Route](U2.JPG)
-![Catch All Route](U3.JPG)
+![Catch All Route](U1T1.gif)
+![Catch All Route](U2.gif)
+![Catch All Route](U3.gif)
 
 ---
 
