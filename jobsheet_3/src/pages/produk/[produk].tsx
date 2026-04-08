@@ -1,4 +1,4 @@
-import DetailProduk from "../../../views/DetailProduct";
+import DetailProduk from "../../views/DetailProduct";
 import { ProductType } from "@/types/product.type";
 import { retrieveProducts, retrieveDataByID } from "@/utils/db/servicefirebase";
 
