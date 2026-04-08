@@ -104,6 +104,65 @@ user akan diarahkan ke halaman login
 
 
 
+## 🧪 D. Pengujian
+
+### 🔹 Uji 1 – isLogin = false
+
+**Konfigurasi:**
+
+```ts
+const isLogin = false;
+```
+
+**Akses:**
+
+```
+/products
+```
+
+**Hasil:**
+
+* User akan di-redirect ke halaman `/login`
+
+---
+
+### 🔹 Uji 2 – isLogin = true
+
+**Konfigurasi:**
+
+```ts
+const isLogin = true;
+```
+
+**Akses:**
+
+```
+/products
+```
+
+**Hasil:**
+
+* User dapat mengakses halaman `/products`
+
+---
+
+### 🔹 Uji 3 – Multiple Route Protection
+
+**Konfigurasi:**
+
+```ts
+export const config = {
+  matcher: ["/products", "/about"],
+};
+```
+
+**Hasil:**
+
+* Halaman `/products` membutuhkan login
+* Halaman `/about` membutuhkan login
+* Halaman lain (misalnya `/login`) tetap dapat diakses tanpa login
+
+---
 
 
 
