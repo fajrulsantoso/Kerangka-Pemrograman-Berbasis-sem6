@@ -172,6 +172,74 @@ export const config = {
 
 
 
+## 🧩 F. Tugas Praktikum
+
+### 🎯 Tugas Individu
+
+1. **Membuat Halaman**
+
+   * `/products`
+   * `/about`
+   * `/login`
+
+2. **Implementasi Middleware**
+
+   * Redirect ke `/login` jika user belum login
+   * Mengizinkan akses jika `isLogin = true`
+
+3. **Proteksi Route Tertentu**
+
+   * Middleware hanya berlaku untuk halaman tertentu (misalnya `/products` dan `/about`)
+
+4. **Dokumentasi**
+#### 📸 Hasil Implementasi:
+![Catch All Route](U1T1.gif)
+![Catch All Route](U2.gif)
+![Catch All Route](U3.gif)
+
+---
+
+---
+
+## 🧠 G. Pertanyaan Analisis
+
+### 1. Mengapa middleware lebih aman dibanding useEffect?
+
+Middleware berjalan di server sebelum halaman dirender, sehingga user tidak sempat mengakses atau melihat konten jika belum login. Sedangkan useEffect berjalan di client setelah halaman tampil.
+
+---
+
+### 2. Mengapa middleware tidak menimbulkan glitch?
+
+Karena proses redirect dilakukan sebelum halaman ditampilkan, sehingga tidak terjadi efek “muncul lalu hilang” seperti pada useEffect.
+
+---
+
+### 3. Apa risiko jika semua halaman diproteksi tanpa pengecualian?
+
+* Terjadi infinite redirect (loop)
+* Halaman login ikut terproteksi sehingga tidak bisa diakses
+* Aplikasi menjadi tidak dapat digunakan
+
+---
+
+### 4. Kapan middleware tidak diperlukan?
+
+* Jika hanya membutuhkan redirect sederhana
+* Jika tidak ada sistem autentikasi
+* Pada aplikasi kecil yang tidak memerlukan proteksi halaman
+
+---
+
+### 5. Apa perbedaan middleware dan API route?
+
+| Middleware                          | API Route                                |
+| ----------------------------------- | ---------------------------------------- |
+| Berjalan sebelum request diproses   | Endpoint backend                         |
+| Digunakan untuk proteksi & redirect | Digunakan untuk logic server (CRUD, dll) |
+| Tidak menghasilkan response data    | Menghasilkan response (JSON, dll)        |
+
+---
 
 
 
