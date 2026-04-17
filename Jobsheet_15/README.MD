@@ -17,3 +17,16 @@
 
 ---
 
+
+---
+
+## 🧪 Hasil Praktikum
+
+###     Bagian 2 – Membuat API Register    
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P2.JPG)
+
+---
+
