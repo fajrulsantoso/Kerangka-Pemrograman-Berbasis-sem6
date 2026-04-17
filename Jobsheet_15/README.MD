@@ -39,6 +39,9 @@
 
 #### 📸 Hasil Implementasi:
 ![Catch All Route](P4.JPG)
+![Catch All Route](P5.JPG)
+![Catch All Route](P6.JPG)
+
 
 ---
 
