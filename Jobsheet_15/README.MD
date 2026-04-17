@@ -1,9 +1,7 @@
 
-
-#  Middleware & Route Protection  
 # 📘 Lembar Kerja 15 Topik: Pertemuan: Implementasi Sistem Registrasi (Database Integration)  
 **Mata Kuliah:** Kerangka Pemrograman Berbasis Framework  
-**Nama:** Fajru Santoso  
+**Nama:** Fajru Santoso   
 
 ---
 
@@ -26,7 +24,21 @@
 
 
 #### 📸 Hasil Implementasi:
-![Catch All Route](P2.JPG)
+![Catch All Route](15.gif)
+
+---
+
+
+
+---
+
+## 🧪 Hasil Praktikum
+
+###      Bagian 3 – Install bcrypt    
+
+
+#### 📸 Hasil Implementasi:
+![Catch All Route](P4.JPG)
 
 ---
 
